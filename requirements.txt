@@ -8,4 +8,10 @@ ipykernel
 seaborn
 catboost
 xgboost
+Flask
+dill
+mlflow
+
+
+
 # -e .
