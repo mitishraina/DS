@@ -1,7 +1,7 @@
 import os
 import sys
-from src.ds_project.exception import CustomException
-from src.ds_project.logger import logging
+from src.scoreWise.exception import CustomException
+from src.scoreWise.logger import logging
 import pandas as pd
 from dotenv import load_dotenv
 import pymysql

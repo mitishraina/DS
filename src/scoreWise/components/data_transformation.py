@@ -6,10 +6,10 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
-from src.ds_project.exception import CustomException
-from src.ds_project.logger import logging
+from src.scoreWise.exception import CustomException
+from src.scoreWise.logger import logging
 import os
-from src.ds_project.utils import save_object
+from src.scoreWise.utils import save_object
 
 @dataclass
 class DataTransformationConfig:

@@ -1,8 +1,8 @@
-from src.ds_project.logger import logging
-from src.ds_project.exception import CustomException
-from src.ds_project.components.data_ingestion import DataIngestion, DataIngestionConfig
-from src.ds_project.components.data_transformation import DataTransformation, DataTransformationConfig
-from src.ds_project.components.model_trainer import ModelTrainer, ModelTrainerConfig
+from src.scoreWise.logger import logging
+from src.scoreWise.exception import CustomException
+from src.scoreWise.components.data_ingestion import DataIngestion, DataIngestionConfig
+from src.scoreWise.components.data_transformation import DataTransformation, DataTransformationConfig
+from src.scoreWise.components.model_trainer import ModelTrainer, ModelTrainerConfig
 import sys
 
 

@@ -8,9 +8,9 @@ from sklearn.metrics import r2_score
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.tree import DecisionTreeRegressor
 from xgboost import XGBRegressor
-from src.ds_project.utils import evaluate_models, save_object
-from src.ds_project.exception import CustomException
-from src.ds_project.logger import logging
+from src.scoreWise.utils import evaluate_models, save_object
+from src.scoreWise.exception import CustomException
+from src.scoreWise.logger import logging
 
 @dataclass
 class ModelTrainerConfig:

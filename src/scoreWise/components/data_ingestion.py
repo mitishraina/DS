@@ -1,10 +1,10 @@
 import os
 import sys
-from src.ds_project.exception import CustomException
-from src.ds_project.logger import logging
+from src.scoreWise.exception import CustomException
+from src.scoreWise.logger import logging
 import pandas as pd
 from dataclasses import dataclass
-from src.ds_project.utils import read_db
+from src.scoreWise.utils import read_db
 from sklearn.model_selection import train_test_split
 
 @dataclass
