@@ -42,7 +42,7 @@ pip install -r requirements.txt
 OR
 
 ```bash
-python setup.py
+python setup.py install
 ```
 
 
